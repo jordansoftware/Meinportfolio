@@ -5,18 +5,18 @@ const About: React.FC = () => {
   const highlights = [
     {
       icon: Code2,
-      title: 'Clean Code',
-      description: 'Writing maintainable, scalable code that stands the test of time'
+      title: 'Sauberer Code',
+      description: 'Schreiben von wartbarem, skalierbarem Code, der den Test der Zeit übersteht'
     },
     {
       icon: Palette,
-      title: 'Creative Design',
-      description: 'Blending aesthetics with functionality for memorable user experiences'
+      title: 'Kreatives Design',
+      description: 'Verschmelzung von Ästhetik und Funktionalität für ein unvergessliches Benutzererlebnis'
     },
     {
       icon: Rocket,
-      title: 'Performance',
-      description: 'Optimizing every detail for lightning-fast, smooth interactions'
+      title: 'Leistung',
+      description: 'Optimierung jedes Details für blitzschnelle, reibungslose Interaktionen'
     }
   ];
 
@@ -52,7 +52,7 @@ const About: React.FC = () => {
 
               <div className="pt-6">
                 <button className="px-8 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white font-semibold hover:bg-white/20 transition-all duration-300 hover:scale-105">
-                  Download Resume
+                  Lebenslaus Herunterladen
                 </button>
               </div>
             </div>
