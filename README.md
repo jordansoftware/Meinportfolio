@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+# 🌟 React + Vite + TypeScript mit Tailwind CSS & Lucia UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dies ist eine moderne Webanwendung, erstellt mit  
+**React**, **Vite**, **TypeScript**, **Tailwind CSS** und **Lucia UI** – einer eleganten UI-Komponentenbibliothek für React.
 
-Currently, two official plugins are available:
+Das Projekt wird automatisch über [Netlify](https://www.netlify.com/) bereitgestellt.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live-Version
 
-## Expanding the ESLint configuration
+👉 [https://prismatic-semolina-b6bc4c.netlify.app/](https://prismatic-semolina-b6bc4c.netlify.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Verwendete Technologien
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- ⚛️ [React](https://reactjs.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🟦 [TypeScript](https://www.typescriptlang.org/)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
+- 🧩 [Lucia UI](https://lucia-ui.dev/) – moderne, zugängliche UI-Komponenten für React
+- (Optional: Zustand, React Router usw.)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Das Projekt wird bei jedem `git push` automatisch auf **Netlify** deployed.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Netlify-Konfiguration:
+
+- **Build-Befehl**: `npm run build`
+- **Verzeichnis für Veröffentlichung**: `dist/`
+
+## 📦 Lokale Entwicklung
+
+```bash
+# Projekt klonen
+git clone https://github.com/dein-nutzername/dein-repo.git
+cd dein-repo
+
+# Abhängigkeiten installieren
+npm install
+
+# Entwicklungsserver starten
+npm run dev
