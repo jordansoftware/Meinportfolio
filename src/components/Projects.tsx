@@ -4,12 +4,13 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+      title: 'Kollaboratives Budget',
+      description: 'Webanwendung zur Verwaltung eines gemeinsamen Budgets in Echtzeit mit Ausgabenverfolgung, Visualisierungen und Multi-User-Synchronisation.',
+      image: 'https://images.wondershare.com/pdfelement/top-pdf-software/comparison-budgeting-apps-for-students.jpg',
+      tech: ['React', 'Firebase', 'Tailwind CSS', 'Chart.js'],
       liveUrl: '#',
       githubUrl: '#'
+
     },
     {
       title: 'Eintrittstickets APP',
@@ -21,16 +22,16 @@ const Projects: React.FC = () => {
 
     },
     {
-      title: 'Social Media App',
-      description: 'Real-time social platform with messaging, story features, and content recommendation engine.',
-      image: 'https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Next.js', 'WebSocket', 'MongoDB', 'Redis'],
-      liveUrl: '#',
+      title: 'Personal UI Kit FIGMA',
+      description: 'Ein sauber strukturiertes UI Kit mit wiederverwendbaren Komponenten für Web-Apps.',
+      image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/0*kkYg_lUH1OdYCOew.jpg',
+      tech: ['Figma'],
+      liveUrl: 'https://www.figma.com/file/xxxxx',
       githubUrl: '#'
     },
     {
       title: '3D Portfolio Website',
-      description: 'Interactive 3D portfolio with WebGL animations and immersive user experience.',
+      description: 'Interaktives 3D-Portfolio mit WebGL-Animationen und immersivem Benutzererlebnis.',
       image: 'https://vanschneider.com/blog/content/images/wp-content/uploads/2018/08/machineast_portfolio.jpg',
       tech: ['Three.js', 'React', 'WebGL', 'GSAP'],
       liveUrl: '#',
@@ -45,10 +46,10 @@ const Projects: React.FC = () => {
       githubUrl: '#'
     },
     {
-      title: 'Task Management Suite',
-      description: 'Collaborative project management tool with real-time updates and team analytics.',
-      image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Vue.js', 'Express', 'MongoDB', 'Socket.io'],
+      title: 'Automatisierung mit n8n',
+      description: 'Workflow zur automatischen Synchronisation von Google Sheets zu Notion, um Kontakte aktuell zu halten.',
+      image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/0*G-5F38rBStjlMNwd.png',
+      tech: ['n8n', 'Google Sheets', 'Notion', 'Webhook'],
       liveUrl: '#',
       githubUrl: '#'
     }
