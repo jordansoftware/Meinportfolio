@@ -12,12 +12,13 @@ const Projects: React.FC = () => {
       githubUrl: '#'
     },
     {
-      title: 'AI-Powered Analytics',
-      description: 'Machine learning dashboard for predictive analytics with interactive data visualizations.',
-      image: 'https://images.pexels.com/photos/7972995/pexels-photo-7972995.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Python', 'React', 'TensorFlow', 'D3.js'],
+      title: 'Eintrittstickets APP',
+      description: 'Mobile Anwendung zur Erstellung und zum Scannen von Eintrittstickets mit QR-Codes.',
+      image: 'https://passkit.com/blog/wp-content/uploads/2024/09/two-qr-code-tickets.webp',
+      tech: ['React Native', 'React Native SVG', 'Firebase'],
       liveUrl: '#',
       githubUrl: '#'
+
     },
     {
       title: 'Social Media App',
@@ -30,16 +31,16 @@ const Projects: React.FC = () => {
     {
       title: '3D Portfolio Website',
       description: 'Interactive 3D portfolio with WebGL animations and immersive user experience.',
-      image: 'https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://vanschneider.com/blog/content/images/wp-content/uploads/2018/08/machineast_portfolio.jpg',
       tech: ['Three.js', 'React', 'WebGL', 'GSAP'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
-      title: 'Crypto Trading Bot',
-      description: 'Automated trading system with risk management and real-time market analysis.',
-      image: 'https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Python', 'FastAPI', 'PostgreSQL', 'Docker'],
+      title: 'Ausgaben-Tracker',
+      description: 'Einfache App zur Verfolgung deiner Ausgaben mit Gesamtübersicht und Kategorien.',
+      image: 'https://quickbooks.intuit.com/oidam/intuit/sbseg/en_us/quickbooks-online/web/image/feature/mobile-track-expenses-feature-qbo-us-desktop@2x.jpg',
+      tech: ['React', 'useState', 'LocalStorage'],
       liveUrl: '#',
       githubUrl: '#'
     },
@@ -82,7 +83,7 @@ const Projects: React.FC = () => {
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                  
+
                   {/* Action Buttons */}
                   <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <a
@@ -112,7 +113,7 @@ const Projects: React.FC = () => {
                   <p className="text-white/70 mb-4 text-sm leading-relaxed">
                     {project.description}
                   </p>
-                  
+
                   {/* Tech Stack */}
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech, techIndex) => (

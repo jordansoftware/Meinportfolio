@@ -52,7 +52,10 @@ const About: React.FC = () => {
 
               <div className="pt-6">
                 <button className="px-8 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white font-semibold hover:bg-white/20 transition-all duration-300 hover:scale-105">
+                  <a href="/cv/MonCV.pdf">
                   Lebenslaus Herunterladen
+                  </a>
+                  
                 </button>
               </div>
             </div>
